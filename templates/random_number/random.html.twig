@@ -1,8 +1,8 @@
-{% extends 'base.html.twig' %} {% block title %}Hello RandomNumberController!{% endblock %} {% block body %}
+{% extends 'base.html.twig' %} {% block title %}Hello {{ controller_name }}!{% endblock %} {% block body %}
 <style>
     .example-wrapper {
         margin: 1em auto;
-        max-width: 800px;
+        /* max-width: 800px; */
         width: 95%;
         font: 18px/1.5 sans-serif;
     }
@@ -14,13 +14,40 @@
 </style>
 
 <div class="example-wrapper">
-    <div class="card" style="width: 18rem;">
-        <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
-        <div class="card-body">
-            <h5 class="card-title">Cute kitten</h5>
-            <a href="{{ base }}/random/number" class="btn btn-primary">Go away</a>
+    <h2>Test kittens</h2>
+    <div class="row row-cols-3 m-3 p-3">
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
+            <div class="card-body">
+                <h5 class="card-title">Cute kitten</h5>
+                <a href="https://lms.codefactory.live/mod/page/view.php?id=8202" class="btn btn-primary">Go away</a>
+            </div>
         </div>
+
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
+            <div class="card-body">
+                <h5 class="card-title">Cute kitten</h5>
+                <a href="https://lms.codefactory.live/mod/page/view.php?id=8202" class="btn btn-primary">Go away</a>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
+            <div class="card-body">
+                <h5 class="card-title">Cute kitten</h5>
+                <a href="https://lms.codefactory.live/mod/page/view.php?id=8202" class="btn btn-primary">Go away</a>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
+            <div class="card-body">
+                <h5 class="card-title">Cute kitten</h5>
+                <a href="https://lms.codefactory.live/mod/page/view.php?id=8202" class="btn btn-primary">Go away</a>
+            </div>
+        </div>
+
     </div>
+
 
 
 </div>
