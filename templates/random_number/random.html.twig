@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %} {% block title %}Hello RandomNumberController!{% endblock %} {% block body %}
+<style>
+    .example-wrapper {
+        margin: 1em auto;
+        max-width: 800px;
+        width: 95%;
+        font: 18px/1.5 sans-serif;
+    }
+    
+    .example-wrapper code {
+        background: #F5F5F5;
+        padding: 2px 6px;
+    }
+</style>
+
+<div class="example-wrapper">
+    <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2023/03/27/14/18/british-shorthair-7880879_960_720.jpg" class="card-img-top" alt="kitten" height="60%">
+        <div class="card-body">
+            <h5 class="card-title">Cute kitten</h5>
+            <a href="{{ base }}/random/number" class="btn btn-primary">Go away</a>
+        </div>
+    </div>
+
+
+</div>
+{% endblock %}
